@@ -1,0 +1,12 @@
+.round-counter-widget {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  z-index: 1001; /* Ensure it's above the map */
+}
