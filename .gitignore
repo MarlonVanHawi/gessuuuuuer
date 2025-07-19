@@ -15,6 +15,19 @@ dist
 dist-ssr
 *.local
 
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+server/.env
+server/.env.production
+server/.env.local
+
+# Large media files
+public/background.mp4
+*.mp4
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
